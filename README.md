@@ -1,7 +1,7 @@
 ---
 title: "LOCF vs. multiple imputation for addressing sparse measurements"
 author: "Ehsan Karim and Belal Hossain"
-date: "15/08/2021"
+date: "19 August, 2021"
 output:
   html_document:
     keep_md: yes
@@ -11,16 +11,16 @@ output:
 
 # impute Sparse
 
-Codes and figures associated with the following article
+Analysis codes, saved results and figures associated with the following article
 
-**Can LOCF be a reasonable approach for addressing sparse measurement issues? An illustration from simulations using zip plots for estimating per-protocol effects**
+**Can LOCF be a reasonable approach for addressing sparse measurement issues? An illustration from per-protocol analysis in pragmatic trials**
 
 by Mohammad Ehsanul Karim and Md. Belal Hossain
 
 ## Simulation scenarios
 
-- $K = 60$
-- $MI.m = 10$
+- K = 60 # max. follow-up
+- MI.m = 10 # number of imputed data
 
 
 Table: Simulation Scenarios considered (scenario number will match figure numbers).
@@ -39,5 +39,5 @@ Table: Simulation Scenarios considered (scenario number will match figure number
 
 Scenario 51 had additional 2 versions for different MI methods
 
-- Confounder = $beta1_0=0, beta2_0=-5, beta1_1=6, beta2_1=3$							
-- Risk factor for Y = $beta1_0=2.95, beta2_0=-5, beta1_1=0, beta2_1=0$							
+- Confounder = $\beta1_0=0, \beta2_0=-5, \beta1_1=6, \beta2_1=3$							
+- Risk factor for Y = $\beta1_0=2.95, \beta2_0=-5, \beta1_1=0, \beta2_1=0$							
