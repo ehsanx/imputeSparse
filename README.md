@@ -1,5 +1,5 @@
 ---
-title: "LOCF vs. multiple imputation for addressing sparse measurements"
+title: "Considerations for choosing an imputation method for addressing sparse measurement issues dictated by the study design - An illustration from per-protocol analysis in pragmatic trials "
 date: "10 Sept, 2021"
 output:
   html_document:
@@ -12,9 +12,7 @@ output:
 
 Analysis codes, saved results and figures associated with the following article
 
-**Can LOCF be a reasonable approach for addressing sparse measurement issues? An illustration from per-protocol analysis in pragmatic trials**
-
-by Mohammad Ehsanul Karim and Md. Belal Hossain
+**Considerations for choosing an imputation method for addressing sparse measurement issues dictated by the study design - An illustration from per-protocol analysis in pragmatic trials**
 
 ## Simulation scenarios
 
