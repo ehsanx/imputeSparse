@@ -1,7 +1,6 @@
 ---
 title: "LOCF vs. multiple imputation for addressing sparse measurements"
-author: "Ehsan Karim and Belal Hossain"
-date: "19 August, 2021"
+date: "10 Sept, 2021"
 output:
   html_document:
     keep_md: yes
